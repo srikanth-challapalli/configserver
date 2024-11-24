@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: 'pncuploadlocal'
+  profiles:
+    active: 'local'
+  main:
+    allow-bean-definition-overriding: 'false'
+my:
+    property: 'Message from config server'
